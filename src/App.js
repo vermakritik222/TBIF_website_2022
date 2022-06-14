@@ -1,12 +1,19 @@
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
+import Nav from "./components/shared/Nav/Nav";
 import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
-      <Home />
-      app
+      <BrowserRouter>
+        <Nav />
+        <div className="pages">
+          <Switch>
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </div>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,13 +1,8 @@
 import React from "react";
-import Nav from "../components/shared/Nav";
+import Nav from "../components/shared/Nav/Nav";
 
 function Home() {
-  return (
-    <div>
-      <Nav />
-      Home
-    </div>
-  );
+  return <div>Home</div>;
 }
 
 export default Home;
