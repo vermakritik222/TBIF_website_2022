@@ -1,0 +1,12 @@
+.about__sec1 {
+    > h1 {
+        font-weight: 600;
+        text-align: center;
+    }
+    > .about__Board_of_G {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
