@@ -19,7 +19,12 @@
   height: 80px;
   max-width: 1500px;
 }
-
+.nav__inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
 .main-container {
   position: absolute;
   top: 0;
@@ -36,9 +41,10 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  flex-grow: 1;
 }
-
+.nav-logo > img {
+  height: 2.2em;
+}
 .nav-menu {
   display: flex;
   list-style: none;
@@ -84,7 +90,13 @@
 .nav-icon {
   display: none;
 }
-
+.nav-logoend {
+  margin-right: 20px;
+  font-size: 2rem;
+}
+.nav-logoend > img {
+  height: 2.2em;
+}
 @media screen and (max-width: 960px) {
   .nav-menu {
     display: flex;
@@ -124,5 +136,8 @@
     font-size: 1.8rem;
     cursor: pointer;
     color: #ffdd40;
+  }
+  .nav-logoend {
+    margin-right: 60px;
   }
 }
