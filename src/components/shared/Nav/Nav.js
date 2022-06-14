@@ -43,7 +43,7 @@ function Nav() {
               <li className="nav-item">
                 <NavLink
                   exact
-                  to="/blog"
+                  to="/portfolio"
                   activeClassName="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
@@ -54,7 +54,7 @@ function Nav() {
               <li className="nav-item">
                 <NavLink
                   exact
-                  to="/contact"
+                  to="/people"
                   activeClassName="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
@@ -65,7 +65,7 @@ function Nav() {
               <li className="nav-item">
                 <NavLink
                   exact
-                  to="/contact"
+                  to="/facilities"
                   activeClassName="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
@@ -76,7 +76,7 @@ function Nav() {
               <li className="nav-item">
                 <NavLink
                   exact
-                  to="#"
+                  to="/galleries"
                   activeClassName="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
@@ -87,7 +87,7 @@ function Nav() {
               <li className="nav-item">
                 <NavLink
                   exact
-                  to="#"
+                  to="/contact"
                   activeClassName="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
@@ -98,7 +98,7 @@ function Nav() {
               <li className="nav-item">
                 <NavLink
                   exact
-                  to="#"
+                  to="/career"
                   activeClassName="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
