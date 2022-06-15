@@ -1,8 +1,10 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import "./App.css";
 import Nav from "./components/shared/Nav/Nav";
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
+import "./util/animation/Animation.scss";
+import "./App.css";
+import Footer from "./components/shared/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
             <Route exact path="/about" component={About} />
           </Switch>
         </div>
+        <Footer />
       </BrowserRouter>
     </div>
   );

@@ -1,12 +1,12 @@
 .outTeam__card {
+  animation: animateOnLodeScale 700ms ease-in;
   border-radius: 15px;
   margin: 15px;
   background-color: whitesmoke;
   font-family: sans-serif;
   text-align: center;
-  min-width: 220px;
-  height: 300px;
-  /* max-width: 200px; */
+  min-width: 260px;
+  height: 350px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   transition: transform 400ms ease-in-out;
@@ -29,7 +29,7 @@
 .outTeam__cardTitle {
   margin-bottom: 20px;
   margin-top: 5px;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   color: rgba(4, 6, 7, 0.61);
   text-transform: capitalize;
 }
@@ -49,4 +49,8 @@
 .outTeam__cardDetails i:hover {
   color: #62b0d1;
   transform: scale(1.2);
+}
+.teamCard__link {
+  textdecoration: none;
+  color: inherit;
 }
