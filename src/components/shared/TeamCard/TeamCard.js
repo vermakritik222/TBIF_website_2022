@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+
 import "./TeamCard.css";
 
 function TeamCard(props) {
   const { name, title, img, linkedin, twitter, github, facebook } = props;
+
   return (
     <div className="outTeam">
       <div className="outTeam__card">

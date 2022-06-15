@@ -13,7 +13,7 @@ function Footer() {
                 <i className="fas fa-map-marker-alt"></i>
                 <div className="cta-text">
                   <h4>Find us</h4>
-                  <span>IIT Ropar,Rupnagar ,punjab</span>
+                  <span>Visvesvaraya Block, IIT Ropar, Punjab</span>
                 </div>
               </div>
             </div>
