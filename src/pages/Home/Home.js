@@ -16,7 +16,6 @@ function Home() {
               number = {ArrayElement.number}
             />
           ))
-
         }
       </div>
     </>

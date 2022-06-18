@@ -16,4 +16,5 @@ function Startup_card(props) {
   );
 }
 
+
 export default Startup_card
