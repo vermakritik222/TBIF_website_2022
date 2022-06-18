@@ -51,6 +51,6 @@
   transform: scale(1.2);
 }
 .teamCard__link {
-  textdecoration: none;
+  text-decoration: none;
   color: inherit;
 }
