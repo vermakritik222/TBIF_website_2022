@@ -2,19 +2,19 @@
     {
         "img": "./img/bulb.png",
         "name": "card-1",
-        "text":"Startups Incubated",
+        "text": "Startups Incubated",
         "number": 18
     },
     {
         "img": "./img/bulb.png",
         "name": "card-2",
-        "text":"Startups Funded",
+        "text": "Startups Funded",
         "number": 26
     },
     {
         "img": "./img/Trophy.png",
         "name": "card-3",
-        "text":"Awards",
+        "text": "Awards",
         "number": 4
     }
 ]

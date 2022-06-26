@@ -7,9 +7,10 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Whatistbif />
-      <div className="Homecards">
+
+      <div className="home__startupCard">
         {CardData.map((ArrayElement) => (
           <StartupCard
             img={ArrayElement.img}
@@ -19,7 +20,6 @@ function Home() {
           />
         ))}
       </div>
-      Home{" "}
     </div>
   );
 }

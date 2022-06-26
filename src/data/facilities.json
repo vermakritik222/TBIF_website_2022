@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Entrepreneurship Library",
+        "img": "/img/facilities/p_8.jpeg",
+        "dis": "A dedicated library with books and magazines on Business, strategy, finance, startups. Business newspapers and Audio books are also available."
+    },
+    {
+        "title": "Office spaces",
+        "img": "/img/facilities/p_9.jpeg",
+        "dis": "Fully furnished individual office spaces and co-working spaces are available."
+    },
+    {
+        "title": "3D Printer",
+        "img": "/img/facilities/p_10.jpeg",
+        "dis": "IIT Ropar TBIF, provides the facility of 3D printers in lab."
+    },
+    {
+        "title": "Business Newspaper",
+        "img": "/img/facilities/p_11.jpeg",
+        "dis": "IIT Ropar TBIF provides the facility of Newspapers."
+    },
+    {
+        "title": "Central Printer",
+        "img": "/img/facilities/p_12.jpeg",
+        "dis": "Facility of printing."
+    },
+    {
+        "title": "Dry Pantry Service",
+        "img": "/img/facilities/p_13.jpeg",
+        "dis": "We provide the facility of Refrigerator, Microwave, Coffee wending machine etc."
+    },
+    {
+        "title": "Samsung Flip",
+        "img": "/img/facilities/p_14.jpeg",
+        "dis": "55' Interactive Touch Panel which can be used by startups for brainstorming sessions"
+    },
+    {
+        "title": "Electronic Prototype",
+        "img": "/img/facilities/p_15.jpeg",
+        "dis": "We provide the facility of Electronic prototype for Startup."
+    },
+    {
+        "title": "Heavy Duty Table Saw",
+        "img": "/img/facilities/p_17.jpeg",
+        "dis": "Makita - 2712 is a durable 315mm (12-3/8') table saw. It is powered by a heavy-duty induction motor for high performance and a long, maintenance-free service life. https://makita.in/product/2712/"
+    },
+    {
+        "title": "Handheld LCR Meters",
+        "img": "/img/facilities/p_18.jpeg",
+        "dis": "The U1733C handheld LCR meters allow you to measure frequencies as high as 100 kHz, a capability typically found only in benchtop meters. These handheld capacitance meters provide extra capabilities and functionalities into electronics assembly and passive components troubleshooting with up to 25 sets of High/Low limits."
+    },
+    {
+        "title": "Digital Multimeters",
+        "img": "/img/facilities/p_19.jpeg",
+        "dis": "Truevolt digital multimeter 34465A enables quick insights, measure low-power devices, and maintain calibrated measurements with Keysight’s patented technology."
+    }
+]

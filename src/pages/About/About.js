@@ -8,32 +8,73 @@ import boardOfGovernorsData from "../../data/board_of_governors.json";
 import "./About.scss";
 
 function About() {
-  const control = useAnimation();
-  const [ref, inView] = useInView();
+  const control_card = useAnimation();
+  const control_heading = useAnimation();
+  const control_about = useAnimation();
+  const [ref_cart, inView_ref_cart] = useInView();
+  const [ref_heading, inView_ref_heading] = useInView();
+  const [ref_about, inView_ref_about] = useInView();
   const boxVariant = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.7 } },
-    hidden: { opacity: 0, scale: 0 },
+    visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.7 } },
+    hidden: { opacity: 0, y: 70 },
   };
 
   useEffect(() => {
-    if (inView) {
-      control.start("visible");
+    if (inView_ref_cart) {
+      control_card.start("visible");
     } else {
-      control.start("hidden");
+      control_card.start("hidden");
     }
-  }, [control, inView]);
+    if (inView_ref_heading) {
+      control_heading.start("visible");
+    } else {
+      control_heading.start("hidden");
+    }
+    if (inView_ref_about) {
+      control_about.start("visible");
+    } else {
+      control_about.start("hidden");
+    }
+  }, [
+    control_about,
+    control_card,
+    control_heading,
+    inView_ref_about,
+    inView_ref_cart,
+    inView_ref_heading,
+  ]);
 
   return (
     <div className="about">
       <AboutBanner />
-      <AboutUs />
+      <motion.div
+        ref={ref_about}
+        variants={{
+          visible: { opacity: 1, y: 0, transition: { duration: 0.7 } },
+          hidden: { opacity: 0, y: 70 },
+        }}
+        initial="hidden"
+        animate={control_about}
+      >
+        <AboutUs />
+      </motion.div>
       <div className="about__sec1  container">
-        <h1>Board of Governors</h1>
+        <motion.h1
+          ref={ref_heading}
+          variants={{
+            visible: { opacity: 1, y: 0, transition: { duration: 0.7 } },
+            hidden: { opacity: 0, y: 70 },
+          }}
+          initial="hidden"
+          animate={control_heading}
+        >
+          Board of Governors
+        </motion.h1>
         <motion.div
-          ref={ref}
+          ref={ref_cart}
           variants={boxVariant}
           initial="hidden"
-          animate={control}
+          animate={control_card}
           className="about__Board_of_G"
         >
           {boardOfGovernorsData.map((el, idx) => (

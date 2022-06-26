@@ -1,0 +1,18 @@
+.contactUs__bg {
+    background: url("../../../public/img/Mediamodifier-Design.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactUs__main {
+    animation: animateOnLodeScale 350ms ease-in;
+    height: 75vh;
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: white;
+    border-radius: 15px;
+}
