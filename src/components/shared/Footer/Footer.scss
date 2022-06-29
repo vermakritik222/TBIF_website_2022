@@ -160,3 +160,21 @@ footer {
     font-size: 14px;
     color: #878787;
 }
+
+
+// Responsiveness
+
+@media screen and (max-width:480px) {
+    .single-cta{
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .single-cta > i {
+        font-size: 20px;
+        
+    }
+    .cta-text > h4{
+        font-size: 20px;
+    }
+}
