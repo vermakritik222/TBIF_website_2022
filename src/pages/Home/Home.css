@@ -1,6 +1,6 @@
-.Homecards{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center ;
+.home__startupCard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }

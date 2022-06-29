@@ -6,6 +6,8 @@ import Footer from "./components/shared/Footer/Footer";
 import People from "./pages/People/People";
 import "./util/animation/Animation.scss";
 import "./App.css";
+import Facilities from "./pages/Facilities/Facilities";
+import ContactUs from "./pages/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/people" component={People} />
+            <Route path="/facilities" component={Facilities} />
+            <Route path="/contact" component={ContactUs} />
           </Switch>
         </div>
         <Footer />

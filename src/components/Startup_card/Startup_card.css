@@ -1,119 +1,118 @@
 /* Container */
-.card-container{
-    width:23vw;
-    height: 25vh;
-    background-color: #003686;
-    border-radius: 1rem;
-    margin: 5vh;
-    margin-top:6vh;
-    margin-bottom: 20vh;
+.card-container {
+  width: 23vw;
+  height: 25vh;
+  background-color: #003686;
+  border-radius: 1rem;
+  margin: 5vh;
+  margin-top: 6vh;
+  margin-bottom: 20vh;
 }
 
 /* The image on center-top of the card */
-.card-image{
-    position:relative;
-    z-index: 19;
-    height: 10vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.card-image {
+  position: relative;
+  z-index: 19;
+  height: 10vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* The number written on the card */
-.card-number{
-    position: relative;
-    color: #12D8F8;
-    text-align: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 4rem;
-    height: min-content;
-    margin: 0;
+.card-number {
+  position: relative;
+  color: #12d8f8;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  height: min-content;
+  margin: 0;
 }
 
 /* The text written on the card */
-.card-text{
-    position: relative;
-    height: min-content;
-    font-size: 1.3rem;
-    color: white;
-    text-align: center;
-    font-family: 'Inter';
-    padding-bottom: 10vh;
-
+.card-text {
+  position: relative;
+  height: min-content;
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+  font-family: "Inter";
+  padding-bottom: 10vh;
 }
 
 /* Pushing the items up for the center-top image to fit. */
-.card-image, .card-number,.card-text{
-    bottom: 20%;
+.card-image,
+.card-number,
+.card-text {
+  bottom: 20%;
 }
 
 /* Responsiveness */
 
-@media screen and (max-width: 1000px){
-    .card-container{
-        margin-bottom: 5vh;
-        height: 20vh;
-    }
-    .card-image{
-        height: 7vh;
-    }
-    .card-number{
-        font-size: 2.5rem;
-    }
+@media screen and (max-width: 1000px) {
+  .card-container {
+    margin-bottom: 5vh;
+    height: 20vh;
+  }
+  .card-image {
+    height: 7vh;
+  }
+  .card-number {
+    font-size: 2.5rem;
+  }
 }
 
-@media screen and (max-width: 868px){
-    .card-container{
-        margin-bottom: 4vh;
-        height: 20vh;
-    }
-    .card-image{
-        height: 7vh;
-    }
-    .card-text{
-        font-size: 1.2rem;
-    }
-    .card-number{
-        font-size: 2.2rem;
-    }
-
+@media screen and (max-width: 868px) {
+  .card-container {
+    margin-bottom: 4vh;
+    height: 20vh;
+  }
+  .card-image {
+    height: 7vh;
+  }
+  .card-text {
+    font-size: 1.2rem;
+  }
+  .card-number {
+    font-size: 2.2rem;
+  }
 }
 
-@media screen and (max-width: 868px){
-    .card-image{
-        height: 7vh;
-    }
-    .card-text{
-        font-size: 1rem;
-    }
-    .card-number{
-        font-size: 2.2rem;
-    }
+@media screen and (max-width: 868px) {
+  .card-image {
+    height: 7vh;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .card-number {
+    font-size: 2.2rem;
+  }
 }
 
-@media screen and (max-width: 450px){
-    .card-container{
-        margin-left: 2vh;
-        margin-right: 2vh;
-    }
-    .card-image{
-        height: 5vh;
-    }
-    .card-number{
-        font-size: 1.5rem;
-    }
-    .card-text{
-        font-size: 0.6rem;
-    }
+@media screen and (max-width: 450px) {
+  .card-container {
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+  .card-image {
+    height: 5vh;
+  }
+  .card-number {
+    font-size: 1.5rem;
+  }
+  .card-text {
+    font-size: 0.6rem;
+  }
 }
-
 
 /* Responsiveness For Tablets */
-@media screen and (max-width: 930px) and (max-height: 1370px){
-    .card-container{
-        margin-bottom: 4vh;
-        height: 13vh;
-    }
+@media screen and (max-width: 930px) and (max-height: 1370px) {
+  .card-container {
+    margin-bottom: 4vh;
+    height: 13vh;
+  }
 }
