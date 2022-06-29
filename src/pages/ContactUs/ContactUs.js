@@ -67,7 +67,7 @@ function ContactUs() {
                     Organization : ${organization}
                     Message : ${message}
                     `);
-                    console.log(name);
+                    console.log({ name, email, organization, message });
                   }}
                 >
                   Submit

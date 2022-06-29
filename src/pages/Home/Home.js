@@ -8,10 +8,10 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home">
+      <div className="HeadLine">
+        <HeadLine />
+      </div>
       <Whatistbif />
-            <div className="HeadLine">
-        <HeadLine/>
-      </div>  
 
       <div className="home__startupCard">
         {CardData.map((ArrayElement) => (
