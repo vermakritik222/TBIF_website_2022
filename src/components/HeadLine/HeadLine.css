@@ -1,0 +1,71 @@
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    /* max-width: 100%; */
+}
+
+.headline-text p {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-family: 'Inter';
+    background-color: #F5F5F5;
+    -moz-animation: marquee 25s linear infinite;
+    -webkit-animation: marquee 25s linear infinite;
+    animation: marquee 25s linear infinite;
+    white-space:nowrap;
+    clear: both;
+}
+
+.headline-text p:hover{
+    -moz-animation: marquee 25s linear infinite paused;
+    -webkit-animation: marquee 25s linear infinite paused;
+    animation: marquee 25s linear infinite paused;
+}
+
+.headline-container{
+    background-color: #F5F5F5;
+    width: 100vw;
+    height: fit-content;
+    overflow-x:hidden; /*This keeps the moving text hidden when it's on the right*/
+}
+
+/* Responsiveness */
+
+/* Breakpoints */
+/* below — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — above: Desktops, large screens */
+
+@media screen and (max-width: 768px) {
+    .headline-text p{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .headline-text p{
+        font-size: 0.6rem;
+    }
+}
+
+
+/* Animations */
+
+@keyframes marquee {
+    0% {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%)
+    }
+    100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
