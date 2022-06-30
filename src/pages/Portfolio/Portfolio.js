@@ -1,7 +1,7 @@
 import { Tab, Tabs } from "@mui/material";
 import React, { useState } from "react";
 import Active from "../../components/Active/Active";
-
+import "./Portfolio.css";
 function Portfolio() {
   const [tabs, setTabs] = useState(0);
   function handleChange(e) {
@@ -21,7 +21,7 @@ function Portfolio() {
       </div>
 
       {tabs === 0 && (
-        <div>
+        <div className="portfolio__active">
           <div className="curators">
             <Active
               img="https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg"
@@ -64,7 +64,7 @@ function Portfolio() {
           </div>
         </div>
       )}
-
+      {tabs === 1 && ""}
       {/* 
     <div className='Makris'><Active img="Makris" name="" info="" contact=""/></div>
     <div className=''><Active img="" name="" info="" contact=""/></div>

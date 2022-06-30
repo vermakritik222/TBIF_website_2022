@@ -1,10 +1,11 @@
-.contain{
-    display: flex;
-    /*justify-content: center;*/
-    margin:10px 10px 10px 10px;
-    width: 500px;
-    height: 300px;
-    flex-wrap: wrap;
+.contain {
+  border: 2px solid black;
+  display: flex;
+  /*justify-content: center;*/
+  margin: 10px 10px 10px 10px;
+  width: 500px;
+  height: 300px;
+  flex-wrap: wrap;
 }
 
 /*.company{
@@ -16,6 +17,6 @@
 
 }*/
 
-.b1{
-    margin-right: 10px;
+.b1 {
+  margin-right: 10px;
 }

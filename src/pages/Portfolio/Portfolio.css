@@ -1,0 +1,5 @@
+.portfolio__active {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
