@@ -6,7 +6,7 @@ import Footer from "./components/shared/Footer/Footer";
 import People from "./pages/People/People";
 import "./util/animation/Animation.scss";
 import "./App.css";
-import "./components/Portfolio/Portfolio";
+
 import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
