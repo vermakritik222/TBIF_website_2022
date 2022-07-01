@@ -1,0 +1,79 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* CSS */
+body{
+    font-family: 'Poppins';
+}
+
+.work-scope{
+    list-style-type: none;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.187);
+    margin: 10px;
+    width: fit-content;
+    padding: 10px;
+    background-color: #0eafc8;
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: bold;
+
+}
+.work-scope-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#heading{
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    font-family: 'Quicksand';
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.187);
+    background-color:rgb(0, 0, 70);
+
+}
+
+#empanelment{
+    font-family: 'Poppins';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sub-heading{
+    position: relative;
+    font-family: 'Poppins';
+    background-color: #7b7bebf8;
+    color: white;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.187);
+}
+
+.eligibility{
+    font-family: 'Quicksand';
+    font-weight: bold;
+}
+
+/* Responsiveness */
+
+/* The following code changes the width of the elements of the "Scope of Work" to all equal instead of fit-content */
+
+@media screen and (max-width: 480px){
+    .work-scope{
+        width:70vw;
+        margin: 5px;
+    }
+}
