@@ -6,10 +6,7 @@ import Footer from "./components/shared/Footer/Footer";
 import People from "./pages/People/People";
 import "./util/animation/Animation.scss";
 import "./App.css";
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
