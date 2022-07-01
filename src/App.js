@@ -4,6 +4,7 @@ import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Footer from "./components/shared/Footer/Footer";
 import People from "./pages/People/People";
+import Career from "./pages/Career/Career";
 import "./util/animation/Animation.scss";
 import "./App.css";
 import Facilities from "./pages/Facilities/Facilities";
@@ -21,6 +22,7 @@ function App() {
             <Route path="/people" component={People} />
             <Route path="/facilities" component={Facilities} />
             <Route path="/contact" component={ContactUs} />
+            <Route path="/career" component={Career} />
           </Switch>
         </div>
         <Footer />
