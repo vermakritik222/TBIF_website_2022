@@ -1,0 +1,17 @@
+[
+  {
+    "img": "./img/startup_14.jpeg",
+    "name": "'Augniscient'",
+    "description": "Augniscient aims at bringing augmented reality into industries such as Defence, Healthcare, Warehousing, and Automobiles.",
+    "contact": "Contact Info: info@augniscient.com",
+    "web": "https://www.tbifiitrpr.org/portfolio/www.tbifiitrpr.org"
+  }
+  ,
+  {
+    "img": "./img/startup_14.jpeg",
+    "name": "Dron Digital",
+    "description": "Dron Digital Services Private Limited is a company founded by the students of IIT Ropar. Dron is an enterprise which brings full Campus digitization solutions for day to day needs of students and school & college administration via intra-campus mobile App and website. Dron manages the database of every user's activities and does data analytics of user's previous choices",
+    "contact": "Contact Info: 2020aim1010@iitrpr.ac.in",
+    "web": "Contact Info: services@drondigital.com"
+  }
+]
