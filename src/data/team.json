@@ -4,55 +4,77 @@
     "title": "Chairman",
     "designation": "Director of IIT Ropar",
     "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "image": "./img/People/prof__rajeev_ahuja.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Prof. Navin Kumar",
+    "title": "Director, TBIF",
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/navin-kumar-a4a4a45/",
+    "image": "./img/People/prof__navin_kumar_.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Dr. Shashi Shekhar Jha",
+    "title": "Director, TBIF",
+    "designation": "",
+    "linkedin": "",
+    "image": "./img/People/dr__shashi_shekhar_jha.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Dr. Anshu Dhar Jayal",
+    "title": "Director, TBIF",
+    "designation": "",
+    "linkedin": "",
+    "image": "./img/People/dr__anshu_dhar_jayal.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Prof. Harpreet Singh",
+    "title": "Director, TBIF",
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/prof-harpreet-singh-9786a289/",
+    "image": "./img/People/prof__harpreet_singh_.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Dr. Ashish Kumar Sahani",
+    "title": "Director, TBIF",
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/ashishksahani/",
+    "image": "./img/People/dr__ashish_kumar_sahani_.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Dr. Srikant Sekhar Padhee",
+    "title": "Faculty In-Charge",
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/sspadhee/",
+    "image": "./img/People/dr__srikant_sekhar_padhee.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Mr. Avik Chakraborty",
+    "title": "Chief Operating Officer",
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/avik/",
+    "image": "./img/People/mr_avik_chakraborty.jpeg"
+  },
+  {
+    "name": "Mr. Amanpreet Singh",
+    "title": "Office Executive",
+    "designation": "",
+    "linkedin": "",
+    "image": "./img/People/mr__amanpreet_singh_.jpeg"
+  },
+  {
+    "name": "Ms. Akwinder Kaur",
+    "title": "Accounts Executive",
+    "designation": "",
+    "linkedin": "",
+    "image": "./img/People/ms__akwinder_kaur_.jpeg"
+  },
+  {
+    "name": "Mr. Jasvir Singh",
+    "title": "Attendant",
+    "designation": "",
+    "linkedin": "",
+    "image": "./img/People/mr__jasvir_singh_.jpeg"
   }
+  
 ]
