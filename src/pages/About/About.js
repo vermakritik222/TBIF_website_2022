@@ -83,8 +83,8 @@ function About() {
               name={el.name}
               title={el.title}
               linkedin={el.linkedin}
-              img={"./img/default_person.jpg"}
-              // img={el.image}
+              // img={"./img/default_person.jpg"}
+              img={el.image}
             />
           ))}
         </motion.div>

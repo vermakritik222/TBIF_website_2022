@@ -3,9 +3,9 @@ import CareerPage from '../../components/CareerPage/CareerPage'
 
 function Career() {
   return (
-    <>
-    <CareerPage/>
-    </>
+    <div style={{ paddingBottom: "20px" }} >
+      <CareerPage />
+    </div>
   )
 }
 
