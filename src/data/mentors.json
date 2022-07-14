@@ -1,30 +1,51 @@
 [
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Talwar Advocates",
+    "title": "Corporate Legal Consultants",
+    "designation": "Provide legal, due-dilligence and prosecution services to TBIF and associated startups.",
+    "linkedin": "https://talwaradvocates.com/",
+    "image": "./img/Mentors/talwar_advocates.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Saurabh Aggarwal",
+    "title": "Company Secretary",
+    "designation": "Provide all services and consulting related to Company matters",
+    "linkedin": "https://www.linkedin.com/in/saurabh-aggarwal-039a1783/",
+    "image": "./img/Mentors/saurabh_aggarwal.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Dr. P J Singh",
+    "title": "MD of Tynor Orthotics",
+    "designation": "Mentorship and Angel investing in domains of orthotics and Class-A medical devices.",
+    "linkedin": "https://tynorindia.com/dr-p-j-singh/",
+    "image": "./img/Mentors/dr__p_j_singh.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Ramesh Loganathan",
+    "title": "Founding partners @ SucSEED Indovation",
+    "designation": "Founding partners @ SucSEED Indovation Fund and Professor Co-Innovation at IIIT Hyderabad",
+    "linkedin": "https://www.linkedin.com/in/rameshl/",
+    "image": "./img/Mentors/ramesh_loganathan.jpeg"
+  },
+  {
+    "name": "Mr. Inderjeet Singh Kang",
+    "title": "Mentor in Operations Management",
+    "designation": "Professional with 36 years of variety of experience in Operations Management, Supply Chain Management, Marketing, Exports, Procurement etc.",
+    "linkedin": "https://www.linkedin.com/in/trainer-mentor-lecturer-inderkang/",
+    "image": "./img/Mentors/mr__inderjeet_singh_kang.jpeg"
+  },
+  {
+    "name": "Srishti Gupta",
+    "title": "Chartered Accountant",
+    "designation": "Affiliated with IIT Ropar TBIF",
+    "linkedin": "",
+    "image": "./img/Mentors/srishti_gupta.jpeg"
+  },
+  {
+    "name": "Aashish Gupta",
+    "title": "Chartered Accountant",
+    "designation": "Affiliated with IIT Ropar TBIF",
+    "linkedin": "",
+    "image": "./img/Mentors/aashish_gupta.jpeg"
   }
 ]

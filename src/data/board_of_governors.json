@@ -1,30 +1,72 @@
 [
   {
     "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
+    "title": "Chairman, TBIF",
+    "designation": "Director, IIT Ropar",
     "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "image": "./img/Board/prof__rajeev_ahuja.jpeg"
   },
   {
     "name": "Prof. Harpreet Singh",
     "title": "Coordinator, TBIF",
     "designation": "Dean of ICSR-II and Prof. of Mechanical Engineering",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "./img/default_person.jpg"
+    "linkedin": "https://www.linkedin.com/in/prof-harpreet-singh-9786a289/",
+    "image": "./img/Board/prof__harpreet_singh.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/prabir-sarkar-73984618/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Dr. Ashish Sahani",
+    "title": "Faculty-in-Charge, TBIF",
+    "designation": "Assistant Professor of Biomedical Engineering and Founder Epilepto Systems",
+    "linkedin": "https://www.linkedin.com/in/ashishksahani/",
+    "image": "./img/Board/dr__ashish_sahani.jpeg"
   },
   {
-    "name": "Prof. Rajeev Ahuja",
-    "title": "Chairman",
-    "designation": "Director of IIT Ropar",
-    "linkedin": "https://www.linkedin.com/in/rajeev-ahuja-5818b839/",
-    "image": "https://www.tbifiitrpr.org/assets/img/team/prof__rajeev_ahuja.jpeg"
+    "name": "Dr. Prabir Sarkar",
+    "title": "IPR Expert",
+    "designation": "Associate Prof. of Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/prabir-sarkar/",
+    "image": "./img/Board/dr__prabir_sarkar.jpeg"
+  },
+  {
+    "name":"Shri. H S Cheema",
+    "title":"Industry Expert",
+    "designation":"Founder Cheema Boilers",
+    "linkedin":"https://www.linkedin.com/in/h-s-cheema-932332194/",
+    "image":"./img/Board/prof__h_s_cheema.jpeg"
+  },
+  {
+    "name":"Shri. Ramneek Jain",
+    "title":"Industry Expert",
+    "designation":"CEO - Max Specialty Films Limited",
+    "linkedin":"https://www.linkedin.com/in/ramneek-jain/",
+    "image":"./img/Board/shri__ramneek_jain.jpeg"
+  },
+  {
+    "name":"Nikhil Sahni",
+    "title":"Financial Expert",
+    "designation":"Senior Group President at YES BANK",
+    "linkedin":"https://www.linkedin.com/in/nikhil-sahni-57b22a/",
+    "image":"./img/Board/nikhil_sahni.jpeg"
+  },
+  {
+    "name":"Dr. Anil Wali",
+    "title":"Incubator Expert",
+    "designation":"Managing Director, FITT, IIT Delhi",
+    "linkedin":"https://www.linkedin.com/in/anil-wali-22959617/",
+    "image":"./img/Board/dr__anil_wali.jpeg"
+  },
+  {
+    "name":"Dr. Anita Gupta",
+    "title":"DST Nominee",
+    "designation":"",
+    "linkedin":"https://www.linkedin.com/in/dr-anita-gupta-a04b609/",
+    "image":"./img/Board/dr__anita_gupta.jpeg"
+  },
+  {
+    "name":"Mr. Rajat Agarwal, IAS",
+    "title":"Punjab Govt. Nominee",
+    "designation":"",
+    "linkedin":"",
+    "image":"./img/Board/mr__rajat_agarwal.jpeg"
   }
 ]
