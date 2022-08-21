@@ -4,6 +4,7 @@ import CardData from "../../data/startup_card_content.json";
 import HeadLine from "../../components/HeadLine/HeadLine";
 import Whatistbif from "../../components/whatistbif/Whatistbif";
 import "./Home.css";
+import HomeBox from "../../components/HomeBox/HomeBox";
 
 function Home() {
   return (
@@ -11,6 +12,11 @@ function Home() {
       <div className="HeadLine">
         <HeadLine />
       </div>
+
+      <div className="home__home">
+        <HomeBox />
+      </div>
+
       <Whatistbif />
 
       <div className="home__startupCard">
