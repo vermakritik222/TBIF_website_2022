@@ -1,3 +1,13 @@
-.homeBox__main {
-    padding: 20px;
+.homeBox {
+    background-color: #23aaf2;
+    margin-bottom: 5em;
+    > .homeBox__main {
+        padding: 100px 20px 100px 20px;
+        > h2 {
+            margin-bottom: 30px;
+        }
+        > p {
+            max-width: 30em;
+        }
+    }
 }
