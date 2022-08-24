@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import Active from "../../components/Active/Active";
 import Past from "../../components/Past/Past";
 import "./Portfolio.css";
-import active_data from "../../data/portfolio_active.json"
-import past_data from "../../data/portfolio_past.json"
+import active_data from "../../data/portfolio_active.json";
+import past_data from "../../data/portfolio_past.json";
 
 function Portfolio() {
   const [tabs, setTabs] = useState(0);
@@ -31,21 +31,21 @@ function Portfolio() {
         // <div className="portfolio__active">
         <Grid container xs="auto" justifyContent="center" alignItems="center">
           <Grid item container xs={8} spacing={2}>
-          {active_data.map((el, idx) => (
-            <Active
-              key={idx}
-              img={el.img}
-              name={el.name}
-              description={el.description}
-              contact={el.contact}
-              web={el.web}
-            />
+            {active_data.map((el, idx) => (
+              <Active
+                key={idx}
+                img={el.img}
+                name={el.name}
+                description={el.description}
+                contact={el.contact}
+                web={el.web}
+              />
             ))}
-            </Grid>
+          </Grid>
         </Grid>
-)}
+      )}
 
-{tabs === 1 && (
+      {tabs === 1 && (
         <div className="portfolio__past">
           {past_data.map((el, idx) => (
             <Past
@@ -56,12 +56,10 @@ function Portfolio() {
               contact={el.contact}
               web={el.web}
             />
-            ))}
+          ))}
         </div>
-)}
-          
+      )}
     </div>
   );
-          
-          }
+}
 export default Portfolio;
