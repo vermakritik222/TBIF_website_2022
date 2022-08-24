@@ -3,17 +3,14 @@ import "./Whatistbif.css";
 
 function Whatistbif() {
   return (
-    <div className="para container">
-      <div className="whatistbif">
-        <h2>What is TBIF ?</h2>
-      </div>
-      <div className="start">
-        IIT Ropar's Technology Business Incubator Foundation is engaged in
-        pushing forward with the mission of promoting entrepreneurial activities
-        among our students and faculties and people of the region. We offer the
-        following services to the companies incubated with us.
-      </div>
-      <br></br>
+    <div className='container1 container'>
+        <div className='whatistbif'>
+            <h2>What is TBIF ?</h2>
+            </div>
+            <div className='start'>
+                IIT Ropar's Technology Business Incubator Foundation is engaged in pushing forward with the mission of promoting entrepreneurial activities among our students and faculties and people of the region. We offer the following services to the companies incubated with us.
+            </div>
+            <br></br>
 
       <div className="bullets">
         <ul>
