@@ -1,6 +1,6 @@
 [
   {
-    "img": "img/startup_14.jpeg",
+    "img": "./img/startup_14.jpeg",
     "name": "Curators",
     "description": "Developing an application for online buying and selling of all art forms.",
     "contact": "Contact Info: 2020aim1010@iitrpr.ac.in",
@@ -15,7 +15,7 @@
   }
   ,
   {
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/startup_19.jpeg",
     "name": "EntrAIner",
     "description": "",
     "contact": "Contact Info: 2019eeb1197@iitrpr.ac.in",
@@ -23,7 +23,7 @@
   }
   ,
   {
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/startup_19.jpeg",
     "name": "Epilepto Systems",
     "description": "Epilepto Systems is developing a smartwatch to detect the occurance of seizures in patients of epilepsy and alert the family careivers. They are also developing an app for self-management of epilepsy. They have been funded by BIRAC under the BIG grant.",
     "contact": "Contact Info: contact@epilepto.com",
@@ -31,7 +31,7 @@
   }
   ,
   {
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/logier.jpeg",
     "name": "Logier",
     "description": "Logier Technologies focuses on innovative application-based business and technology in the field of artificial intelligence and machine learning. We want to revolutionize the different field through hardware electronics products, consulting and mobile application",
     "contact": "Contact Info: contact@logier.in",
@@ -39,7 +39,7 @@
   }
   ,
   {
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/startup_19.jpeg",
     "name": "Makris",
     "description": "Developing an application for online buying and selling of all art forms.",
     "contact": "Contact Info: themakrisofficial@gmail.com",
@@ -47,7 +47,7 @@
   }
   ,
   {
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/startup_19.jpeg",
     "name": "Meal Bell",
     "description": "",
     "contact": "Contact Info: savneetkaurjohar@gmail.com",
@@ -69,21 +69,21 @@
     "web": ""
   }
   ,{
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/shininael.jpeg",
     "name": "Shinaizel",
     "description": "",
     "contact": "Contact Info: info@shinaizel.com",
     "web": ""
   }
   ,{
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/snizzr.jpeg",
     "name": "Snizzr Technologies",
     "description": "",
     "contact": "Contact Info: 2019eeb1206@iitrpr.ac.in",
     "web": ""
   }
   ,{
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/vafo.jpeg",
     "name": "Vafo Layovers",
     "description": "An online marketplace for vaccation rentals, primarily budget homestays. It includes variety of accomodations like houses, appartments. cottages, farm-houses, villas etc. All homes shall be fully furnished so the guests",
     "contact": "Contact Info: 2015csb1014@iitrpr.ac.in",
@@ -97,14 +97,14 @@
     "web": ""
   }
   ,{
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/we.jpeg",
     "name": "Wevixit",
     "description": "",
     "contact": "Contact Info: 2018eeb1149@iitrpr.ac.in",
     "web": ""
   }
   ,{
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/yoboshu.jpeg",
     "name": "Yoboshu",
     "description": "oboshu focuses on developing a digital platform to promote healthy lifestyle and food.",
     "contact": "Contact Info: contact@yoboshu.in",

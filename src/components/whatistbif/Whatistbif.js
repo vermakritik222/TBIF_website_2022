@@ -3,7 +3,7 @@ import "./Whatistbif.css"
 
 function Whatistbif() {
   return (
-    <div className='container'>
+    <div className='container1 container'>
         <div className='whatistbif'>
             <h2>What is TBIF ?</h2>
             </div>

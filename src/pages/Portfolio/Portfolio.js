@@ -1,4 +1,4 @@
-import { Tab, Tabs } from "@mui/material";
+import { Grid, Tab, Tabs } from "@mui/material";
 import React, { useState } from "react";
 import Active from "../../components/Active/Active";
 import Past from "../../components/Past/Past";
@@ -28,7 +28,9 @@ function Portfolio() {
       </div>
 
       {tabs === 0 && (
-        <div className="portfolio__active">
+        // <div className="portfolio__active">
+        <Grid container xs="auto" justifyContent="center" alignItems="center">
+          <Grid item container xs={8} spacing={2}>
           {active_data.map((el, idx) => (
             <Active
               key={idx}
@@ -39,7 +41,8 @@ function Portfolio() {
               web={el.web}
             />
             ))}
-        </div>
+            </Grid>
+        </Grid>
 )}
 
 {tabs === 1 && (
