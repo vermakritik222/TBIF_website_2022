@@ -9,7 +9,8 @@ import past_data from "../../data/portfolio_past.json";
 function Portfolio() {
   const [tabs, setTabs] = useState(0);
   function handleChange(e) {
-    setTabs(e.target.value);
+    // setTabs(e.target.value);
+    console.log(e.target.value);
   }
   return (
     <div className="portfolio">
