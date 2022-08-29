@@ -51,7 +51,7 @@ function Nav() {
                   Portfolio
                 </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink
                   exact
                   to="/people"
@@ -61,7 +61,7 @@ function Nav() {
                 >
                   People
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <NavLink
                   exact
@@ -73,7 +73,7 @@ function Nav() {
                   Facilities
                 </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink
                   exact
                   to="/galleries"
@@ -83,7 +83,7 @@ function Nav() {
                 >
                   Galleries
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <NavLink
                   exact
@@ -104,6 +104,17 @@ function Nav() {
                   onClick={click ? handleClick : null}
                 >
                   Career
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  exact
+                  to="/career"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={click ? handleClick : null}
+                >
+                  Apply
                 </NavLink>
               </li>
             </ul>

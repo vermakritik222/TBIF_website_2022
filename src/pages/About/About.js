@@ -68,7 +68,7 @@ function About() {
           initial="hidden"
           animate={control_heading}
         >
-          Board of Governors
+          Board of Directors
         </motion.h1>
         <motion.div
           ref={ref_cart}
