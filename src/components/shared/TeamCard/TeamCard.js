@@ -19,17 +19,26 @@ function TeamCard(props) {
             </Link>
           )}
 
-          <Link className="teamCard__link" to={linkedin ? linkedin : "#"}>
+          <div
+            className="teamCard__link"
+            onClick={() => {
+              window.location = linkedin ? linkedin : window.location;
+            }}
+          >
             <i className="fab fa-linkedin"></i>
-          </Link>
+          </div>
 
-          <Link className="teamCard__link" to={twitter ? twitter : "#"}>
+          {/* <div
+            className="teamCard__link"
+            onClick={() => {
+              window.location = twitter ? twitter : window.location;
+            }}
+          >
             <i className="fab fa-twitter"></i>
-          </Link>
+          </div> */}
 
           {facebook && (
             <Link className="teamCard__link" to={facebook}>
-              {" "}
               <i className="fab fa-facebook"></i>
             </Link>
           )}

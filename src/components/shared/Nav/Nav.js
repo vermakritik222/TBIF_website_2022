@@ -109,7 +109,7 @@ function Nav() {
               <li className="nav-item">
                 <NavLink
                   exact
-                  to="/career"
+                  to="/apply"
                   activeClassName="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}

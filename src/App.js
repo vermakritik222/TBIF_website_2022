@@ -8,6 +8,7 @@ import Career from "./pages/Career/Career";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Facilities from "./pages/Facilities/Facilities";
 import ContactUs from "./pages/ContactUs/ContactUs";
+import Apply from "./pages/Apply/Apply";
 import "./util/animation/Animation.scss";
 import "./App.css";
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/facilities" component={Facilities} />
             <Route path="/contact" component={ContactUs} />
             <Route path="/career" component={Career} />
+            <Route path="/apply" component={Apply} />
           </Switch>
         </div>
         <Footer />
