@@ -98,7 +98,11 @@ body {
 .careerBox-10 {
   animation: 500ms ease-out 0s 1.1 slideInFromRight;
 }
-
+.CareerPage__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Responsiveness */
 
 /* The following code changes the width of the elements of the "Scope of Work" to all equal instead of fit-content */

@@ -17,7 +17,7 @@ function Portfolio() {
       <div className="portfolio__heading">
         <h3>Startups Incubated at IIT Ropar</h3>
       </div>
-      <div className="portfolio__tabs">
+      {/* <div className="portfolio__tabs">
         <Tabs
           value={tabs}
           onChange={handleChange}
@@ -26,12 +26,19 @@ function Portfolio() {
           <Tab label="ACTIVE" />
           <Tab label="PAST" />
         </Tabs>
-      </div>
+      </div> */}
 
       {tabs === 0 && (
         // <div className="portfolio__active">
         <Grid container xs="auto" justifyContent="center" alignItems="center">
-          <Grid item container xs={8} spacing={2}>
+          <Grid
+            item
+            container
+            xs={8}
+            marginTop={3}
+            marginBottom={3}
+            spacing={2}
+          >
             {active_data.map((el, idx) => (
               <Active
                 key={idx}
