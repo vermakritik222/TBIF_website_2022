@@ -59,18 +59,6 @@ function CareerPage() {
           should also mention the turnaround times for different services.
         </p> */}
         {/* <h3>Last date of application: May 25, 2021</h3> */}
-        <div className="CareerPage__form">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdUzrOf1N_rMKdNb_VH-kPve0RiW-dPkyOAYgOQLUJn3PEZEQ/viewform?embedded=true"
-            width="640"
-            height="684"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-          >
-            Loading…
-          </iframe>
-        </div>
       </div>
     </>
   );

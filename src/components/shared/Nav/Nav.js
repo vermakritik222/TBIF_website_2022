@@ -84,7 +84,7 @@ function Nav() {
                   Galleries
                 </NavLink>
               </li> */}
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink
                   exact
                   to="/contact"
@@ -94,7 +94,7 @@ function Nav() {
                 >
                   Contact Us
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <NavLink
                   exact

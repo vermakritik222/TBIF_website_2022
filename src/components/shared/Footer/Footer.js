@@ -31,7 +31,7 @@ function Footer() {
                 <i className="far fa-envelope-open"></i>
                 <div className="cta-text">
                   <h4>Mail us</h4>
-                  <span>mail@info.com</span>
+                  <span>tbioffice@iitrpr.ac.in</span>
                 </div>
               </div>
             </div>
@@ -50,24 +50,36 @@ function Footer() {
                     />
                   </NavLink>
                 </div>
-                <div className="footer-text">
+                {/* <div className="footer-text">
                   <p>
                     Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
                     sed do eiusmod tempor incididuntut consec tetur adipisicing
                     elit,Lorem ipsum dolor sit amet.
                   </p>
-                </div>
+                </div> */}
                 <div className="footer-social-icons">
                   <span>Follow us</span>
-                  <NavLink to="#">
+                  <NavLink
+                    onClick={() =>
+                      (window.location =
+                        "https://www.facebook.com/IITRoparTBIF")
+                    }
+                    to="#"
+                  >
                     <i className="footer-social-icon fab fa-facebook-f facebook-bg"></i>
                   </NavLink>
-                  <NavLink to="#">
+                  <NavLink
+                    onClick={() =>
+                      (window.location =
+                        "https://twitter.com/iitrprtbif?lang=en")
+                    }
+                    to="#"
+                  >
                     <i className="footer-social-icon fab fa-twitter twitter-bg"></i>
                   </NavLink>
-                  <NavLink to="#">
+                  {/* <NavLink to="#">
                     <i className="footer-social-icon fab fa-google-plus-g google-bg"></i>
-                  </NavLink>
+                  </NavLink> */}
                 </div>
               </div>
             </div>
@@ -78,31 +90,31 @@ function Footer() {
                 </div>
                 <ul>
                   <li>
-                    <NavLink to="#">Home</NavLink>
+                    <NavLink to="/">Home</NavLink>
                   </li>
                   <li>
-                    <NavLink to="#">about</NavLink>
+                    <NavLink to="/about">about</NavLink>
                   </li>
                   <li>
-                    <NavLink to="#">portfolio</NavLink>
+                    <NavLink to="/portfolio">portfolio</NavLink>
                   </li>
-                  <li>
+                  {/* <li>
                     <NavLink to="#">People</NavLink>
-                  </li>
+                  </li> */}
                   <li>
-                    <NavLink to="#">facilities</NavLink>
+                    <NavLink to="/facilities">facilities</NavLink>
                   </li>
-                  <li>
+                  {/* <li>
                     <NavLink to="#">Galleries</NavLink>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <NavLink to="#">Contact us</NavLink>
+                  </li> */}
+                  <li>
+                    <NavLink to="/career">career</NavLink>
                   </li>
                   <li>
-                    <NavLink to="#">career</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="#">Apply</NavLink>
+                    <NavLink to="/apply">Apply</NavLink>
                   </li>
                   {/* <li>
                     <NavLink to="#">Latest News</NavLink>
@@ -111,7 +123,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
-              <div className="footer-widget">
+              {/* <div className="footer-widget">
                 <div className="footer-widget-heading">
                   <h3>Contact</h3>
                 </div>
@@ -120,7 +132,7 @@ function Footer() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
                 </div>
-                <div className="subscribe-form">
+                 <div className="subscribe-form">
                   <form action="#">
                     <input
                       type="email"
@@ -134,8 +146,8 @@ function Footer() {
                       <i className="fab fa-telegram-plane"></i>
                     </button>
                   </form>
-                </div>
-              </div>
+                </div> 
+              </div> */}
             </div>
           </div>
         </div>
@@ -151,21 +163,21 @@ function Footer() {
             <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
               <div className="footer-menu">
                 <ul>
-                  <li>
+                  {/* <li>
                     <NavLink to="#">Home</NavLink>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <NavLink to="#">Terms</NavLink>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <NavLink to="#">Privacy</NavLink>
                   </li> */}
-                  <li>
+                  {/* <li>
                     <NavLink to="#">Policy</NavLink>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <NavLink to="#">Contact</NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

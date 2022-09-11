@@ -5,6 +5,7 @@ function Apply() {
   return (
     <div className="apply">
       <div className="apply_googleForm">
+        <h2>Apply Form</h2>
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSdUzrOf1N_rMKdNb_VH-kPve0RiW-dPkyOAYgOQLUJn3PEZEQ/viewform?embedded=true"
           width="640"

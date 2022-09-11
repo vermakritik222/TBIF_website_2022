@@ -2,4 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.apply_googleForm > h2 {
+  margin-top: 20px;
 }
