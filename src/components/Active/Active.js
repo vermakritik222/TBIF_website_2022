@@ -12,14 +12,9 @@ import { Grid } from "@mui/material";
 function Active(props) {
   const { img, name, description, contact, web } = props;
   return (
-    <Grid item xs={4}>
+    <Grid item xs={8} md={4}>
       <Card sx={{ maxWidth: 345, minWidth: 200, minHeight: 400 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image={img}
-          alt="green iguana"
-        />
+        <CardMedia component="img" height="140" image={img} alt={name} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {name}

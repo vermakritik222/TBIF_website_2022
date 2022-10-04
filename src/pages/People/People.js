@@ -2,14 +2,15 @@ import React from "react";
 import TeamCard from "../../components/shared/TeamCard/TeamCard";
 import teamData from "../../data/team.json";
 import mentorsData from "../../data/mentors.json";
+import DIrectors from "../../data/board_of_governors.json";
 import "./People.scss";
 
 function People() {
   return (
     <div className="people">
-      <h1>Team</h1>
+      <h1>Directors</h1>
       <div className="">
-        {teamData.map((el, idx) => (
+        {DIrectors.map((el, idx) => (
           <TeamCard
             key={idx}
             name={el.name}
@@ -20,9 +21,10 @@ function People() {
           />
         ))}
       </div>
-      <h1>Mentors</h1>
+
+      <h1>Dedicated Staff</h1>
       <div className="" style={{ marginBottom: "80px" }}>
-        {mentorsData.map((el, idx) => (
+        {teamData.map((el, idx) => (
           <TeamCard
             key={idx}
             name={el.name}

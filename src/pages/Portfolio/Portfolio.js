@@ -38,6 +38,7 @@ function Portfolio() {
             marginTop={3}
             marginBottom={3}
             spacing={2}
+            flexWrap="wrap"
           >
             {active_data.map((el, idx) => (
               <Active

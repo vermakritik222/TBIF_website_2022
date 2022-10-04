@@ -89,7 +89,6 @@ function About() {
           ))}
         </motion.div>
       </div>
-      About
     </div>
   );
 }

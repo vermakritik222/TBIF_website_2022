@@ -6,7 +6,8 @@
     "contact": "Contact Info: 2020aim1010@iitrpr.ac.in",
     "web": "https://www.tbifiitrpr.org/portfolio/www.tbifiitrpr.org"
   }
- ,{
+ ,
+ {
     "img": "./img/startup_16.jpeg",
     "name": "DaktarZ",
     "description": "Personalized Healthcare Platform to access range of Healthcare Services.",
@@ -23,7 +24,7 @@
   }
   ,
   {
-    "img": "./img/startup_19.jpeg",
+    "img": "./img/EpileptoSystems.jfif",
     "name": "Epilepto Systems",
     "description": "Epilepto Systems is developing a smartwatch to detect the occurance of seizures in patients of epilepsy and alert the family careivers. They are also developing an app for self-management of epilepsy. They have been funded by BIRAC under the BIG grant.",
     "contact": "Contact Info: contact@epilepto.com",
@@ -39,7 +40,7 @@
   }
   ,
   {
-    "img": "./img/startup_19.jpeg",
+    "img": "./img/startup_100.jpeg",
     "name": "Makris",
     "description": "Developing an application for online buying and selling of all art forms.",
     "contact": "Contact Info: themakrisofficial@gmail.com",
@@ -47,7 +48,7 @@
   }
   ,
   {
-    "img": "./img/startup_19.jpeg",
+    "img": "./img/startup_100.jpeg",
     "name": "Meal Bell",
     "description": "",
     "contact": "Contact Info: savneetkaurjohar@gmail.com",
@@ -55,31 +56,17 @@
   }
   ,
   {
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/Padhakku.jfif",
     "name": "Padhakku",
     "description": "Padhakku is an Ed-tech startup working with a vision to create a one stop solution. They offer various services like renting out books, strategic studying for Placements (currently providing Insights of more than 90+ companies) and free ebooks.",
     "contact": "Contact Info: padhakku@gmail.com",
     "web": ""
   }
   ,{
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/Scratchnest.png",
     "name": "Scratchnest",
     "description": "ScratchNest pioneers in delivering customized experiences of the next-gen technologies and bringing innovation to everything you use. They develop RFID, LoRa, IoT, NBIoT, WiFi, and Bluetooth devices, crafted totally from scratch.",
     "contact": "Contact Info: sales@scratchnest.com",
-    "web": ""
-  }
-  ,{
-    "img": "./img/shininael.jpeg",
-    "name": "Shinaizel",
-    "description": "",
-    "contact": "Contact Info: info@shinaizel.com",
-    "web": ""
-  }
-  ,{
-    "img": "./img/snizzr.jpeg",
-    "name": "Snizzr Technologies",
-    "description": "",
-    "contact": "Contact Info: 2019eeb1206@iitrpr.ac.in",
     "web": ""
   }
   ,{
@@ -90,7 +77,7 @@
     "web": ""
   }
   ,{
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/VanixTechnologies.jfif",
     "name": "Vanix Technologies",
     "description": "",
     "contact": "Contact Info: vanixtechnologies@gmail.com",
@@ -111,7 +98,7 @@
     "web": ""
   }
   ,{
-    "img": "https://www.tbifiitrpr.org/assets/img/portfolio/startup_16.jpeg",
+    "img": "./img/Padhakku.jfif",
     "name": "Zynix Technoking",
     "description": "Development of an interactive talking mirror that simulates how various outfits/products look on a customer by sreamlining the whole buying process providing personalized recommendations based on user's personal data.",
     "contact": "Contact Info: 2017eeb1169@iitrpr.ac.in",
