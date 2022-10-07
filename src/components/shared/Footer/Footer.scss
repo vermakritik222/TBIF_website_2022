@@ -17,8 +17,8 @@ footer {
     margin-top: 8px;
 }
 .cta-text {
-    padding-left: 15px;
-    display: inline-block;
+    padding-left: 35px;
+    // display: inline-block;
 }
 .cta-text > h4 {
     color: #fff;
@@ -161,20 +161,18 @@ footer {
     color: #878787;
 }
 
-
 // Responsiveness
 
-@media screen and (max-width:480px) {
-    .single-cta{
+@media screen and (max-width: 480px) {
+    .single-cta {
         font-size: 20px;
         display: flex;
         flex-direction: row;
     }
     .single-cta > i {
         font-size: 20px;
-        
     }
-    .cta-text > h4{
+    .cta-text > h4 {
         font-size: 20px;
     }
 }

@@ -5,7 +5,7 @@ function HomeBox() {
   return (
     <div className="homeBox">
       <div className="container homeBox__main">
-        <h2>TECHNOLOGY BUSINESS INCUBATOR FOUNDATION IIT ROPAR</h2>
+        <h2>IIT ROPAR TECHNOLOGY BUSINESS INCUBATOR FOUNDATION</h2>
         <p>
           IIT Ropar's Technology Business Incubator Foundation is engaged in
           pushing forward with the mission of promoting entrepreneurial

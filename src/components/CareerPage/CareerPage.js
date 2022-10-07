@@ -1,6 +1,7 @@
 import React from "react";
 import Eligibility from "../../data/Career_Eligibility.json";
 import ScopeOfWork from "../../data/Career_ScopeOfWork.json";
+import AdvertisementCard from "../AdvertisementCard/AdvertisementCard";
 import "./CareerPage.css";
 
 function CareerPage() {
@@ -12,11 +13,11 @@ function CareerPage() {
         <h1 align="center" id="heading">
           Career with TBIF
         </h1>
-        <h3 id="empanelment">Empanelment of Firm with Expertise in IPR</h3>
-        <h6>
+        {/* <h3 id="empanelment">Empanelment of Firm with Expertise in IPR</h3> */}
+        {/* <h6>
           IIT Ropar TBIF – A Section 8 Non Profit Entity of IIT Ropar, requires
           services of a firm with expertise in intellectual property matters.
-        </h6>
+        </h6> */}
         <h4 className="sub-heading">Scope of work</h4>
         <div className="work-scope-container">
           {ScopeOfWork.map(({ point }, index) => (
@@ -37,7 +38,10 @@ function CareerPage() {
             </li>
           ))}
         </ul>
-        <p id="contact-details">
+        <div className="AdvertisementBox">
+          <AdvertisementCard />
+        </div>
+        {/* <p id="contact-details">
           Interested firms are required to send their offer in a sealed cover by
           enclosing a detailed profile of the firm with financial quote against
           the scope of work, addressed to: <br />
@@ -53,7 +57,7 @@ function CareerPage() {
             Please also send a copy of your applications to
             office-tbif-mgr@iitrpr.ac.in
           </b>
-        </p>
+        </p> */}
         {/* <p>
           Applicants must highlight the eligibility as per the criteria. They
           should also mention the turnaround times for different services.

@@ -64,7 +64,9 @@ body {
   font-family: "Quicksand";
   font-weight: bold;
 }
-
+.AdvertisementBox {
+  margin-top: 40px;
+}
 .careerBox-0 {
   animation: 500ms ease-out 0s 1 slideInFromRight;
 }

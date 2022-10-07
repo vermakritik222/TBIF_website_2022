@@ -13,7 +13,9 @@ function Footer() {
                 <i className="fas fa-map-marker-alt"></i>
                 <div className="cta-text">
                   <h4>Find us</h4>
-                  <span>Visvesvaraya Block, IIT Ropar, Punjab</span>
+                  <span>
+                    3rd Floor, East wing , M. Visvesvaraya Block, IIT Ropar
+                  </span>
                 </div>
               </div>
             </div>
@@ -22,7 +24,7 @@ function Footer() {
                 <i className="fas fa-phone"></i>
                 <div className="cta-text">
                   <h4>Call us</h4>
-                  <span>9876543210 0</span>
+                  <span>9417484881</span>
                 </div>
               </div>
             </div>

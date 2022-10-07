@@ -7,13 +7,6 @@
     "image": "./img/Board/prof__rajeev_ahuja.jpeg"
   },
   {
-    "name": "Prof Navin  Kumar",
-    "title": "Dean RnD, TBIF",
-    "designation": "Dean of ICSR-II and Prof. of Mechanical Engineering",
-    "linkedin": "https://www.linkedin.com/in/navin-kumar-a4a4a45/",
-    "image": "./img/Board/nkumar.jpg"
-  },
-  {
     "name": "Dr. Atharva Abhay Poundarik",
     "title": "Faculty-in-Charge, TBIF",
     "designation": "Assistant Professor of Biomedical Engineering",
@@ -21,15 +14,22 @@
     "image": "./img/Board/atharva_0.jpg"
   },
   {
+    "name": "Prof Navin  Kumar",
+    "title": "Director TBIF",
+    "designation": "Dean of ICSR-II and Prof. of Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/navin-kumar-a4a4a45/",
+    "image": "./img/Board/nkumar.jpg"
+  },
+  {
     "name": "Dr. Shashi Shekhar Jha",
-    "title": "",
+    "title": "Director TBIF",
     "designation": "Associate Prof. of Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/jhashashishekhar",
     "image": "./img/Board/ShashiShekhar.jfif"
   },
   {
     "name": "Dr. Anshu Dhar Jayal",
-    "title": "",
+    "title": "Director TBIF",
     "designation": "Founder Cheema Boilers",
     "linkedin": "",
     "image": "./img/Board/AnshuDharJayal.jfif"
