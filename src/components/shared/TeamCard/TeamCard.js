@@ -19,14 +19,14 @@ function TeamCard(props) {
             </Link>
           )}
 
-          <div
+          {/* <div
             className="teamCard__link"
             onClick={() => {
               window.location = linkedin ? linkedin : window.location;
             }}
           >
             <i className="fab fa-linkedin"></i>
-          </div>
+          </div> */}
 
           {/* <div
             className="teamCard__link"

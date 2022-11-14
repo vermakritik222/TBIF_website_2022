@@ -18,7 +18,7 @@ function CareerPage() {
           IIT Ropar TBIF – A Section 8 Non Profit Entity of IIT Ropar, requires
           services of a firm with expertise in intellectual property matters.
         </h6> */}
-        <h4 className="sub-heading">Scope of work</h4>
+        {/* <h4 className="sub-heading">Scope of work</h4>
         <div className="work-scope-container">
           {ScopeOfWork.map(({ point }, index) => (
             <p className={`work-scope careerBox-${index}`} key={index}>
@@ -37,7 +37,7 @@ function CareerPage() {
               {condition}
             </li>
           ))}
-        </ul>
+        </ul> */}
         <div className="AdvertisementBox">
           <AdvertisementCard />
         </div>
