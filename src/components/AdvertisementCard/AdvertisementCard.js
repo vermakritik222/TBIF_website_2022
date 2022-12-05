@@ -1,24 +1,22 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 import "./AdvertisementCard.scss";
-function AdvertisementCard() {
-  const history = useHistory();
+
+function AdvertisementCard(props) {
+  const {url,title,text} = props
   return (
     <a
-      href="/img/Advertisement/CEO-advertisement.jpeg"
+      href={url}
       className="advertisementCard_a"
     >
       <div className="advertisementCard">
         <div className="advertisementCard__top">
           <img src="/img/advertisementCard2.png" alt="" />
-          <h4>Chief Executive Officer (CEO)</h4>
+          <h4>{title}</h4>
         </div>
         <p>
-          We are looking for a Chief Executive Officer (CEO) to handle its day
-          to day operations and help establish the incubator as an exemplary
-          leader in the domain of technology-oriented and engineering start-ups.
+         {text}
         </p>
-        <a href="/img/Advertisement/CEO-advertisement.jpeg">
+        <a href={url}>
           Click here for more information
         </a>
       </div>
