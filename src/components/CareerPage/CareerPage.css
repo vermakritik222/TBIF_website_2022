@@ -6,7 +6,11 @@
 body {
   font-family: "Poppins";
 }
-
+.nopositions{
+  text-align: center;
+  font-size: 2rem;
+  color:gray;
+}
 .work-scope {
   list-style-type: none;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.187);
