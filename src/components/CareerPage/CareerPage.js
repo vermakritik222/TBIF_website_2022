@@ -39,8 +39,8 @@ function CareerPage() {
           ))}
         </ul> */}
         <div className="AdvertisementBox">
-          {/* <p className="nopositions">No positions are available.</p> */}
-          <AdvertisementCard url={"/img/Advertisement/Office_attendant_Advertisement.jpg"} title={"Office Attendant"} text={"Applications are invited for the position of Office Attendant (on contract) at IIT Ropar - Technology Business Incubator Foundation to assist the TBIF office with routine office tasks like maintaining labs, document filing, copying and dispatching, as well as buying supplies for TBIF's daily operations."}/>
+          <p className="nopositions">No positions are available.</p>
+          {/* <AdvertisementCard url={"/img/Advertisement/Office_attendant_Advertisement.jpg"} title={"Office Attendant"} text={"Applications are invited for the position of Office Attendant (on contract) at IIT Ropar - Technology Business Incubator Foundation to assist the TBIF office with routine office tasks like maintaining labs, document filing, copying and dispatching, as well as buying supplies for TBIF's daily operations."}/> */}
           {/* <AdvertisementCard url={"/img/Advertisement/TBIF_Incubation_Manager_Advertisement_page-0001.jpg"} title={"Incubation Manager"} text={"IIT Ropar - Technology Business Incubator Foundation is looking for an Incubation Manager to handle its daily operations and help establish the incubator as an exemplary leader in the domain of technology-oriented and engineering start-ups."}/> */}
         </div>
         {/* <p id="contact-details">

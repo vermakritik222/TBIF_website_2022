@@ -11,6 +11,7 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import Apply from "./pages/Apply/Apply";
 import "./util/animation/Animation.scss";
 import "./App.css";
+import Events from "./pages/Events/Events";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/facilities" component={Facilities} />
             <Route path="/contact" component={ContactUs} />
+            <Route path="/events" component={Events} />
             <Route path="/career" component={Career} />
             <Route path="/apply" component={Apply} />
           </Switch>

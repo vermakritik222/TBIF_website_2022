@@ -109,6 +109,17 @@ function Nav() {
               <li className="nav-item">
                 <NavLink
                   exact
+                  to="/events"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={click ? handleClick : null}
+                >
+                  Events
+                                  </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  exact
                   to="/apply"
                   activeClassName="active"
                   className="nav-links"
