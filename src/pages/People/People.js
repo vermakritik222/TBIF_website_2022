@@ -35,6 +35,16 @@ function People() {
           />
         ))}
       </div>
+      <h1>Advisory Board</h1>
+      <div className="" style={{ marginBottom: "80px" }}>
+        <TeamCard
+            key= "1"
+            name="Virbhadra Singh Rawat"
+            title="Advisor"
+            // img={"./img/default_person.jpg"}
+            img="./img/Board/advisor.jpeg"
+          />
+      </div>
     </div>
   );
 }
